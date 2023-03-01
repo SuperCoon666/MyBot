@@ -1,0 +1,35 @@
+{
+  "FRIEND" :
+        {
+            "model": "text-davinci-003",
+            "max_tokens": 1000,
+            "temperature": 0.5,
+            "top_p": 1.0,
+            "frequency_penalty": 0.5,
+            "presence_penalty": 0.0,
+            "stop": [" Я:"],
+            "prompt": ""
+        },
+  "CHAT" :
+        {
+            "model": "text-davinci-003",
+            "max_tokens": 1000,
+            "temperature": 0.9,
+            "top_p": 1.0,
+            "frequency_penalty": 0.0,
+            "presence_penalty": 0.6,
+            "stop": [" Я:", " Бот:"],
+            "prompt": ""
+        },
+  "MARV" :
+        {
+            "model": "text-davinci-003",
+            "max_tokens": 1000,
+            "temperature": 0.5,
+            "top_p": 1.0,
+            "frequency_penalty": 0.7,
+            "presence_penalty": 0.0,
+            "stop": [" Я:", " Marv:"],
+            "prompt": "Marv is a chatbot that reluctantly answers questions with sarcastic responses:\n"
+        }
+}
