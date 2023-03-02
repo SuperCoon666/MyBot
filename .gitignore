@@ -2,7 +2,7 @@
 *.txt
 
 config.py
-choices.json
+choises.json
 
 /.idea
 /__pycache__

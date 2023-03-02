@@ -125,7 +125,6 @@ async def generate_text(message: types.Message):
         save_dialog(message=answer, file_name=from_user)
 
     message_text = answer.replace("Бот:", '')
-    # test
 
     await message.answer(message_text)
 
